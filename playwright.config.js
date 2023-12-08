@@ -51,24 +51,86 @@ const config = {
 
   /* Configure projects for major browsers */
   projects: [
+    // {
+    //   name: "chrome@latest:Windows 11@browserstack",
+    //   use: {
+    //     browserName: "chromium",
+    //     channel: "chrome",
+    //   },
+    // },
+    // {
+    //   name: "playwright-webkit@latest:OSX Ventura@browserstack",
+    //   use: {
+    //     browserName: "chromium",
+    //     channel: "chrome",
+    //   },
+    // },
     {
-      name: "chrome@latest:Windows 11@browserstack",
+      name: 'chrome@12.0:Google Pixel 6@android',
       use: {
         browserName: "chromium",
         channel: "chrome",
       },
     },
     {
-      name: "playwright-webkit@latest:OSX Ventura@browserstack",
+      name: 'chrome@10.0:Samsung Galaxy A11@android',
       use: {
         browserName: "chromium",
         channel: "chrome",
       },
     },
     {
-      name: "chrome@Samsung Galaxy S22:13@browserstack-mobile",
+      name: 'chrome@12.0:Samsung Galaxy S21@android',
       use: {
-        baseURL: "https://www.bstackdemo.com/",
+        browserName: "chromium",
+        channel: "chrome",
+      },
+    },
+    {
+      name: 'chrome@11.0:OnePlus 9@android',
+      use: {
+        browserName: "chromium",
+        channel: "chrome",
+      },
+    },
+    {
+      name: 'chrome@14.0:Google Pixel 8 Pro@android',
+      use: {
+        browserName: "chromium",
+        channel: "chrome",
+      },
+    },
+    {
+      name: 'chrome@13.0:Samsung Galaxy S23 Ultra@android',
+      use: {
+        browserName: "chromium",
+        channel: "chrome",
+      },
+    },
+    {
+      name: 'chrome@11.0:Samsung Galaxy M52@android',
+      use: {
+        browserName: "chromium",
+        channel: "chrome",
+      },
+    },
+    {
+      name: 'chrome@11.0:Motorola Moto G71 5G@android',
+      use: {
+        browserName: "chromium",
+        channel: "chrome",
+      },
+    },
+    {
+      name: 'chrome@13.0:Samsung Galaxy S23@android',
+      use: {
+        browserName: "chromium",
+        channel: "chrome",
+      },
+    },
+    {
+      name: 'chrome@10.0:Samsung Galaxy S20 Ultra@android',
+      use: {
         browserName: "chromium",
         channel: "chrome",
       },
